@@ -23,7 +23,7 @@ h2 {
     font-weight: bold;
 }
 
-h4 {
+h3 {
     font-size: 48px;
     font-family: var(--heading-font-family);
 }
@@ -109,7 +109,7 @@ footer .social-links a:hover {
 .hero {
     background: var(--secondary-color);
     text-align: center;
-    padding: 160px 20px;
+    padding: 80px 20px;
 }
 
 .hero h2 {
@@ -130,7 +130,7 @@ footer .social-links a:hover {
 
 
 .content-container {
-    padding: 160px 20px;
+    padding: 60px 20px;
 
 }
 
@@ -203,10 +203,6 @@ footer .social-links a:hover {
         margin-top: 25px;
     }
 
-    .hero {
-
-        padding: 80px 20px;
-    }
 
     .content {
         text-align: center;

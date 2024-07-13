@@ -4,6 +4,8 @@
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta name="description"
+    content="In this page we can find some of Serena's workshops that she did in the past few months.">
   <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet"
     integrity="sha384-QWTKZyjpPEjISv5WaRU9OFeRpok6YctnYmDr5pNlyT2bRjXh0JMhjY6hW+ALEwIH" crossorigin="anonymous">
   <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.min.js"
@@ -17,38 +19,77 @@
     rel="stylesheet">
 
   <link rel="stylesheet" href="src/style.css">
-  <title>Workshops</title>
+  <title>Front-end Developer - Serena Ammendola Workshops</title>
 </head>
 
 <body>
+  <div class="container">
+    <nav class="d-flex justify-content-between">
+      <h3> <a href="/" title="Homepage">SA</a></h3>
+      <ul>
+        <li>
+          <a href="/" title="Homepage">Home</a>
+        </li>
+        <li><a href="/about.html" title="About Serena">About</a></li>
+        <li class="active"><a href="/work.html" title="Serena's work">Work</a></li>
+        <li> <a href="/contact.html" title="Contact Serena">Contact</a></li>
+      </ul>
+    </nav>
+  </div>
   <div class="content-container">
     <div class="content">
       <h1 class="text-center mb-5">Take a look at what I've been working on!</h1>
       <div class="row">
         <div class="col-md-6 mb-4">
-          <img src="images/weather-app.png" class="img-fluid rounded mb-3" alt="" />
+          <img src="images/weather-app.png" class="img-fluid rounded mb-3" alt="Weather project preview" />
           <h3 class="text-center m-0">Weather Project </h3>
-          <p class="text-center text-muted">Built with HTML, CSS and JS</p>
+          <p class="text-center text-muted">Built with HTML, CSS and React</p>
         </div>
         <div class="col-md-6 mb-4">
-          <img src="images/ai-motivational-quote.png" class="img-fluid rounded mb-3" alt="" />
+          <img src="images/ai-motivational-quote.png" class="img-fluid rounded mb-3"
+            alt="Motivational quote preview preview" />
           <h3 class="text-center m-0">Motivational Quote Project</h3>
           <p class="text-center text-muted">Built with HTML, CSS and AI</p>
         </div>
       </div>
       <div class="row">
         <div class="col-md-6 mb-4">
-          <img src="images/world-clock.png" class="img-fluid rounded mb-3" alt="" />
+          <img src="images/world-clock.png" class="img-fluid rounded mb-3" alt="World clock project preview" />
           <h3 class="text-center m-0">World Clock Project </h3>
           <p class="text-center text-muted">Built with HTML, CSS and JS</p>
         </div>
         <div class="col-md-6 mb-4">
-          <img src="images/dictionary-app.png" class="img-fluid rounded mb-3" alt="" />
+          <img src="images/dictionary-app.png" class="img-fluid rounded mb-3" alt="Dictionary project preview" />
           <h3 class="text-center m-0">Dictionary Project</h3>
           <p class="text-center text-muted">Built with HTML, CSS and React</p>
         </div>
       </div>
     </div>
+    <footer>
+      <div class="contact-box d-flex justify-content-between mb-5 d-none d-md-flex">
+        <div>
+          <h3>Work Inquiry</h3>
+          <p class="text-muted">Let's work together!</p>
+        </div>
+        <div>
+          <a href="/contact.html" class="btn btn-branding mt-3" title="Contact Serena">Contact me</a>
+        </div>
+      </div>
+      <div class="d-flex justify-content-center mb-5">
+        <a href="mailto:serena.ammendola95@gmail.com" class="email-link"
+          title="Send an email to Serena">serena.ammendola95@gmail.com</a>
+      </div>
+      <div class="social-links d-flex justify-content-center">
+        <a href="mailto:serena.ammendola95@gmail.com" title="Send and email"> <i class="fa-solid fa-envelope"></i></a>
+        <a href="https://www.instagram.com/sery_95a" title="Instagram profile" target="_blank"> <i
+            class="fa-brands fa-instagram"></i></a>
+        <a href="https://www.github.com/Serena-Ammendola" title="GitHub profile" target="_blank"> <i
+            class="fa-brands fa-github"></i></a>
+      </div>
+      <p class="text-center mt-5"> 🫶🏼 This project was coded by Serena Ammendola and it is <a
+          href="https://github.com/Serena-Ammendola/my-portfolio-project" target="_blank">open sourced on Github</a>
+      </p>
+    </footer>
   </div>
 </body>
 
