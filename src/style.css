@@ -156,6 +156,11 @@ footer .social-links a:hover {
     line-height: 1.5;
 }
 
+.content h3 a {
+    color: var(--branding-color);
+    text-decoration: none;
+}
+
 .content p {
     font-size: 14px;
 }
